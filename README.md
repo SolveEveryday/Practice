@@ -1,4 +1,4 @@
-# SolveEveryday - Practice
+# SolveEveryday - 실전
 
 ## 🧑‍💻 현 스터디원
 
