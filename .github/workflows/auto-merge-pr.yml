@@ -1,0 +1,28 @@
+name: Auto Merge Pull Request
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 매일 자정에 실행 (UTC 기준)
+
+jobs:
+  auto_merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Merge Pull Request
+        run: |
+          for pull_request in $(gh pr list -s open -f '{{.Number}}|{{.CreatedAt}}'); do
+            number=$(echo $pull_request | cut -d '|' -f 1)
+            created_at=$(echo $pull_request | cut -d '|' -f 2)
+
+            now=$(date +%s)
+            created=$(date -d "$created_at" +%s)
+
+            if [ $((now-created)) -ge $((2*24*60*60)) ]; then
+              gh pr merge -m "Automatically merged" $number
+            fi
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
