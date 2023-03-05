@@ -2,12 +2,12 @@
 
 > 제한시간 40분
 
-## [일차](Day)
+## [1일차](Day1)
 
 | #   | 문제                 | 답안      |
 | --- | -------------------- | --------- |
-| 1   | [문제이름](문제링크) | 진홍 현수 |
-| 2   | [문제이름](문제링크) | 진홍 현수 |
+| 1   | [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12921) | 진홍 현수 |
+| 2   | [가장 가까운 같은 글자](https://school.programmers.co.kr/learn/courses/30/lessons/142086) | 진홍 현수 |
 
 > 불참
 >
