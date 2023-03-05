@@ -13,13 +13,6 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/sue4869">
-        <img src="https://avatars.githubusercontent.com/u/68679529?v=4" width="100px;" />
-        <br />
-        유수민
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/HanHyunsoo">
         <img src="https://avatars.githubusercontent.com/u/37373826?v=4" width="100px;" />
         <br />
@@ -37,14 +30,9 @@
       0일 연속🔥</br>
       최장 0일
     </td>
-    <td align="center">
-      0일 연속🔥</br>
-      최장 0일
-    </td>
   </tr>
   <!-- 불참횟수 -->
   <tr>
-    <td align="center">불참 0회😢</td>
     <td align="center">불참 0회😢</td>
     <td align="center">불참 0회😢</td>
   </tr>
