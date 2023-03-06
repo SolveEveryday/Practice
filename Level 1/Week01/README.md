@@ -6,8 +6,8 @@
 
 | #   | 문제                 | 답안      |
 | --- | -------------------- | --------- |
-| 1   | [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12921) | 진홍 현수 |
-| 2   | [가장 가까운 같은 글자](https://school.programmers.co.kr/learn/courses/30/lessons/142086) | 진홍 현수 |
+| 1   | [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12921) | 진홍 [현수](Day1/hhs/1.java) |
+| 2   | [가장 가까운 같은 글자](https://school.programmers.co.kr/learn/courses/30/lessons/142086) | 진홍 [현수](Day1/hhs/2.java) |
 
 > 불참
 >
