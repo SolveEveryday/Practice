@@ -17,8 +17,8 @@
 
 | #   | 문제                 | 답안           |
 | --- | -------------------- | -------------- |
-| 1   | [문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925) | 진홍 수민 현수 |
-| 2   | [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | 진홍 수민 현수 |
+| 1   | [문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925) | 진홍 수민 [현수](Day2/hhs/1.java) |
+| 2   | [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | 진홍 수민 [현수](Day2/hhs/2.java) |
 
 > 불참자
 >
