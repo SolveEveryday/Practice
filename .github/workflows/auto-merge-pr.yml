@@ -13,9 +13,9 @@ jobs:
 
       - name: Merge Pull Request
         run: |
-          for pull_request in $(gh pr list -s open -F "{{.Number}}|{{.CreatedAt}}" --json); do
-            number=$(echo $pull_request | jq -r '.Number')
-            created_at=$(echo $pull_request | jq -r '.CreatedAt')
+          for pull_request in $(gh pr list -s open --json number,created_at); do
+            number=$(echo $pull_request | jq -r '.number')
+            created_at=$(echo $pull_request | jq -r '.created_at')
 
             now=$(date +%s)
             created=$(date -d "$created_at" +%s)
