@@ -28,8 +28,8 @@
 
 | #   | 문제                 | 답안           |
 | --- | -------------------- | -------------- |
-| 1   | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | 진홍 수민 현수 |
-| 2   | [3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935) | 진홍 수민 현수 |
+| 1   | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | 진홍 수민 [현수](Day3/hhs/1.java) |
+| 2   | [3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935) | 진홍 수민 [현수](Day3/hhs/2.java) |
 
 > 불참자
 >
