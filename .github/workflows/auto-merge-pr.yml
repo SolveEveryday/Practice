@@ -3,6 +3,7 @@ name: Auto Merge Pull Request
 on:
   schedule:
     - cron: '0 0 * * *' # 매일 자정에 실행 (UTC 기준)
+  workflow_dispatch:
 
 jobs:
   auto_merge:
@@ -13,17 +14,20 @@ jobs:
 
       - name: Merge Pull Request
         run: |
-          for pull_request in $(gh pr list -s open --json number,created_at); do
-            number=$(echo $pull_request | jq -r '.number')
-            created_at=$(echo $pull_request | jq -r '.created_at')
+          pr_list=$(gh pr list -s open --json number,createdAt | jq --arg separator ',' -r '.[] | [.number, .createdAt] | @csv' | sed 's/"//g')
+          for pull_request in $pr_list; do
+            pull_request_arr=(${pull_request//,/ })
+            number=${pull_request_arr[0]}
+            createdAt=${pull_request_arr[1]}
 
             now=$(date +%s)
-            created=$(date -d "$created_at" +%s)
+            createdAt_iso=$(echo "$createdAt" | sed 's/Z$//' | tr 'T' ' ')
+            createdAt_formatted=$(date -d "$createdAt_iso" +%FT%T%z)
+            created=$(date -d "$createdAt_formatted" +%s)
 
             if [ $((now-created)) -ge $((2*24*60*60)) ]; then
-              gh pr merge -m "Automatically merged" $number
+              gh pr merge ${number%%,*} --merge
             fi
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
