@@ -38,15 +38,15 @@
       최장 4일
     </td>
     <td align="center">
-      0일 연속🔥</br>
-      최장 3일
+      4일 연속🔥</br>
+      최장 4일
     </td>
   </tr>
   <!-- 불참횟수 -->
   <tr>
     <td align="center">불참 0회😢</td>
     <td align="center">불참 0회😢</td>
-    <td align="center">불참 1회😢</td>
+    <td align="center">불참 0회😢</td>
   </tr>
 </table>
 
