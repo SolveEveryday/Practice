@@ -19,6 +19,7 @@ jobs:
           
       - name: Merge Pull Request
         run: |
+          git fetch origin
           pr_list=$(gh pr list -s open --json number,createdAt,author | jq --arg separator ',' -r '.[] | [.number, .createdAt, .author.login] | @csv' | sed 's/"//g')
           for pull_request in $pr_list; do
             pull_request_arr=(${pull_request//,/ })
