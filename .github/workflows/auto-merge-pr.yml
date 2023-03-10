@@ -35,7 +35,7 @@ jobs:
               # 로컬 브랜치로 체크아웃하여 병합 가능 여부를 판단
               git fetch origin pull/$number/head:pr/$number
               git checkout pr/$number
-              if ! git merge --no-commit --no-ff origin/main --allow-unrelated-histories; then # 병합 실패한 경우 코멘트 달기
+              if ! git merge --no-commit origin/main --allow-unrelated-histories; then # 병합 실패한 경우 코멘트 달기
                 gh pr comment $number --body "Error merging the pull request: conflicts detected @${author}"
               else # 병합 성공한 경우 머지하고, 코멘트 달기
                 gh pr merge $number --delete-branch --merge --allow-unrelated-histories
