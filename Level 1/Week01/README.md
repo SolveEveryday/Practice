@@ -51,7 +51,7 @@
 | 1   | [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)      |
 | 2   | [3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day3/kjh1.kt) | [문제2 답안](Day3/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
