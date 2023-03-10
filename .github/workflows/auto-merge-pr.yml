@@ -2,7 +2,7 @@ name: Auto Merge Pull Request
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 매일 자정에 실행 (UTC 기준)
+    - cron: '0 0,12 * * *' # 매일 아침 9시와 저녁 9
   workflow_dispatch:
 
 jobs:
@@ -14,11 +14,12 @@ jobs:
 
       - name: Merge Pull Request
         run: |
-          pr_list=$(gh pr list -s open --json number,createdAt | jq --arg separator ',' -r '.[] | [.number, .createdAt] | @csv' | sed 's/"//g')
+          pr_list=$(gh pr list -s open --json number,author,createdAt | jq --arg separator ',' -r '.[] | [.number, .author.login, .createdAt] | @csv' | sed 's/"//g')
           for pull_request in $pr_list; do
             pull_request_arr=(${pull_request//,/ })
             number=${pull_request_arr[0]}
-            createdAt=${pull_request_arr[1]}
+            author=${pull_request_arr[1]}
+            createdAt=${pull_request_arr[2]}
             now=$(date +%s)
             createdAt_iso=$(echo "$createdAt" | sed 's/Z$//' | tr 'T' ' ')
             createdAt_formatted=$(date -d "$createdAt_iso" +%FT%T%z)
@@ -27,7 +28,7 @@ jobs:
               if gh pr merge ${number%%,*} --merge; then
                 echo "Pull request #${number%%,*} merged successfully."
               else
-                gh pr comment ${number%%,*} --body "Merge failed for this pull request. Please resolve any conflicts and try again."
+                gh pr comment ${number%%,*} --body "@$author 충돌이 발생해 자동으로 Merge하지 못했습니다. 수동으로 충돌을 해결한 뒤 Merge 부탁드립니다!"
               fi
             fi
           done
