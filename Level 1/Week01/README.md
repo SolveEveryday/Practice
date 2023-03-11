@@ -72,7 +72,7 @@
 | 1   | [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) |
 | 2   | [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)         |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day4/kjh1.kt) | [문제2 답안](Day4/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
