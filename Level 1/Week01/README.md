@@ -93,7 +93,7 @@
 | 1   | [서울에서 김서방 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12919) |
 | 2   | [음양 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/76501) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day5/kjh1.kt) | [문제2 답안](Day5/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
