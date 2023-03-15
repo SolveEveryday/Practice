@@ -51,7 +51,7 @@
 | 1   | [수박수박수박수박수박수?](https://school.programmers.co.kr/learn/courses/30/lessons/12922) |
 | 2   | [두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day10/kjh1.kt) | [문제2 답안](Day10/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
