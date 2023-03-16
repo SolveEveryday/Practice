@@ -72,7 +72,7 @@
 | 1   | [시저 암호](https://school.programmers.co.kr/learn/courses/30/lessons/12926) |
 | 2   | [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day11/kjh1.kt) | [문제2 답안](Day11/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
