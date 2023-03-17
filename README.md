@@ -45,8 +45,8 @@
   <!-- 불참횟수 -->
   <tr>
     <td align="center">불참 3회😢</td>
-    <td align="center">불참 4회😢</td>
-    <td align="center">불참 4회😢</td>
+    <td align="center">불참 5회😢</td>
+    <td align="center">불참 5회😢</td>
   </tr>
 </table>
 
