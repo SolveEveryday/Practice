@@ -34,7 +34,7 @@
       최장 5일
     </td>
     <td align="center">
-      0일 연속🔥br>
+      0일 연속🔥</br>
       최장 4일
     </td>
     <td align="center">
