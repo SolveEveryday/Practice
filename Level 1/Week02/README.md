@@ -90,7 +90,7 @@
 | 1   | [제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935) |
 | 2   | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day12/kjh1.kt) | [문제2 답안](Day12/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
