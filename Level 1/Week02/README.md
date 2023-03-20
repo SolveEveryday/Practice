@@ -109,7 +109,7 @@
 | 1   | [개인정보 수집 유효기간 ](https://school.programmers.co.kr/learn/courses/30/lessons/150370) |
 | 2   | [정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day13/kjh1.kt) | [문제2 답안](Day13/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
