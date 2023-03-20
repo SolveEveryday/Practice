@@ -26,6 +26,13 @@
         한현수
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/sukyeongh">
+        <img src="https://avatars.githubusercontent.com/u/50071076?v=4" width="100px;" />
+        <br />
+        황수경
+      </a>
+    </td>
   </tr>
   <!-- 연속일수 -->
   <tr>
@@ -41,12 +48,17 @@
       3일 연속🔥</br>
       최장 4일
     </td>
+    <td align="center">
+      0일 연속🔥</br>
+      최장 0일
+    </td>
   </tr>
   <!-- 불참횟수 -->
   <tr>
     <td align="center">불참 3회😢</td>
     <td align="center">불참 6회😢</td> 
     <td align="center">불참 5회😢</td>
+    <td align="center">불참 0회😢</td>
   </tr>
 </table>
 
