@@ -69,8 +69,8 @@
 
 | #   | 문제                 |
 | --- | -------------------- |
-| 1   | [문제이름](문제링크) |
-| 2   | [문제이름](문제링크) |
+| 1   | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990) |
+| 2   | [덧칠하기](https://school.programmers.co.kr/learn/courses/30/lessons/161989) |
 
 | **진홍** | 문제1 답안 | 문제2 답안 |
 | ------ | ---------- | ---------- |
