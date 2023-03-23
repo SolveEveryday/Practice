@@ -90,8 +90,8 @@
 
 | #   | 문제                 |
 | --- | -------------------- |
-| 1   | [문제이름](문제링크) |
-| 2   | [문제이름](문제링크) |
+| 1   | [공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928) |
+| 2   | [부족한 금액 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/82612) |
 
 | **진홍** | 문제1 답안 | 문제2 답안 |
 | ------ | ---------- | ---------- |
