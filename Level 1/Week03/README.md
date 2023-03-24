@@ -111,8 +111,8 @@
 
 | #   | 문제                 |
 | --- | -------------------- |
-| 1   | [문제이름](문제링크) |
-| 2   | [문제이름](문제링크) |
+| 1   | [약수의 개수와 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/77884) |
+| 2   | [나머지가 1이 되는 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/87389) |
 
 | **진홍** | 문제1 답안 | 문제2 답안 |
 | ------ | ---------- | ---------- |
