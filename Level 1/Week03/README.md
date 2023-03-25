@@ -72,7 +72,7 @@
 | 1   | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990) |
 | 2   | [덧칠하기](https://school.programmers.co.kr/learn/courses/30/lessons/161989) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day18/kjh1.kt) | [문제2 답안](Day18/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
