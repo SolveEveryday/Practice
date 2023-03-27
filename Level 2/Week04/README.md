@@ -7,7 +7,7 @@
 | #   | 문제                 |
 | --- | -------------------- |
 | 1   | [숫자 블록](https://school.programmers.co.kr/learn/courses/30/lessons/12923) |
-| 2   | [우박수열 정](https://school.programmers.co.kr/learn/courses/30/lessons/134239) |
+| 2   | [우박수열 정적분](https://school.programmers.co.kr/learn/courses/30/lessons/134239) |
 
 | **진홍** | 문제1 답안 | 문제2 답안 |
 | ------ | ---------- | ---------- |
@@ -23,12 +23,12 @@
 > 홍길동 불참 (컨디션 난조)
 -->
 
-## [일차](Day)
+## [23일차](Day23)
 
 | #   | 문제                 |
 | --- | -------------------- |
-| 1   | [문제이름](문제링크) |
-| 2   | [문제이름](문제링크) |
+| 1   | [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888) |
+| 2   | [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |
 
 | **진홍** | 문제1 답안 | 문제2 답안 |
 | ------ | ---------- | ---------- |
