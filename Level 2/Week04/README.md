@@ -9,7 +9,7 @@
 | 1   | [숫자 블록](https://school.programmers.co.kr/learn/courses/30/lessons/12923) |
 | 2   | [우박수열 정](https://school.programmers.co.kr/learn/courses/30/lessons/134239) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day22/kjh1.java) | [문제2 답안](Day22/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
