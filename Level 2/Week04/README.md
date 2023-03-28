@@ -30,7 +30,7 @@
 | 1   | [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888) |
 | 2   | [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day23/kjh1.kt) | [문제2 답안](Day23/kjh2.java) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
