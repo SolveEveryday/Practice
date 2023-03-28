@@ -44,12 +44,12 @@
 > 홍길동 불참 (컨디션 난조)
 -->
 
-## [일차](Day)
+## [24일차](Day24)
 
 | #   | 문제                 |
 | --- | -------------------- |
-| 1   | [문제이름](문제링크) |
-| 2   | [문제이름](문제링크) |
+| 1   | [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952) |
+| 2   | [리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199?language=cpp) |
 
 | **진홍** | 문제1 답안 | 문제2 답안 |
 | ------ | ---------- | ---------- |
