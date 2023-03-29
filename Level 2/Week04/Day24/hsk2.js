@@ -3,49 +3,44 @@ function solution(board) {
   const col = board[0].length;
   const visited = Array.from(Array(row), () => Array(col).fill(false));
 
-  const bfs = (startX, startY) => {
-    const dx = [-1, 1, 0, 0];
-    const dy = [0, 0, -1, 1];
-    const queue = [[startX, startY]];
+  const dx = [-1, 1, 0, 0];
+  const dy = [0, 0, -1, 1];
 
-    let count = 0;
+  let canMove = (x, y, i) => {
+    const nx = x + dx[i];
+    const ny = y + dy[i];
+
+    return nx >= 0 && ny >= 0 && nx < row && ny < col && board[nx][ny] !== 'D';
+  };
+
+  const bfs = (startX, startY) => {
+    const queue = [[startX, startY, 0]];
+
     visited[startX][startY] = true;
 
     while (queue.length) {
-      const size = queue.length;
-      for (let k = 0; k < size; k++) {
-        const [x, y] = queue.shift();
+      const [x, y, count] = queue.shift();
 
-        for (let i = 0; i < 4; i++) {
-          let nx = x + dx[i];
-          let ny = y + dy[i];
+      if (board[x][y] === 'G') {
+        return count;
+      }
 
-          while (
-            nx >= 0 &&
-            ny >= 0 &&
-            nx < row &&
-            ny < col &&
-            board[nx][ny] !== 'D'
-          ) {
-            nx += dx[i];
-            ny += dy[i];
-          }
+      for (let i = 0; i < 4; i++) {
+        let nx = x;
+        let ny = y;
 
-          nx -= dx[i];
-          ny -= dy[i];
+        while (canMove(nx, ny, i)) {
+          nx += dx[i];
+          ny += dy[i];
+        }
 
-          if (board[nx][ny] === 'G') {
-            return count + 1;
-          }
-
-          if (!visited[nx][ny]) {
-            visited[nx][ny] = true;
-            queue.push([nx, ny]);
-          }
+        if (!visited[nx][ny]) {
+          visited[nx][ny] = true;
+          queue.push([nx, ny, count + 1]);
         }
       }
-      count += 1;
     }
+
     return -1;
   };
 
