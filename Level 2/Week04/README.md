@@ -51,7 +51,7 @@
 | 1   | [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952) |
 | 2   | [리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199?language=cpp) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day22/kjh1.java) | [문제2 답안](Day22/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
