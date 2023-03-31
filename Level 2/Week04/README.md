@@ -86,12 +86,12 @@
 > 홍길동 불참 (컨디션 난조)
 -->
 
-## [일차](Day)
+## [26일차](Day26)
 
 | #   | 문제                 |
 | --- | -------------------- |
-| 1   | [문제이름](문제링크) |
-| 2   | [문제이름](문제링크) |
+| 1   | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) |
+| 2   | [호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651?language=cpp) |
 
 | **진홍** | 문제1 답안 | 문제2 답안 |
 | ------ | ---------- | ---------- |
