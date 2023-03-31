@@ -9,7 +9,7 @@
 | 1   | [숫자 블록](https://school.programmers.co.kr/learn/courses/30/lessons/12923) |
 | 2   | [우박수열 정적분](https://school.programmers.co.kr/learn/courses/30/lessons/134239) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day22/kjh1.java) | [문제2 답안](Day22/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | [문제1 답안](Day22/hhs/1.java) | 문제2 실패 |
@@ -51,7 +51,7 @@
 | 1   | [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952) |
 | 2   | [리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199?language=cpp) |
 
-| **진홍** | [문제1 답안](Day22/kjh1.java) | [문제2 답안](Day22/kjh2.kt) |
+| **진홍** | [문제1 답안](Day24/kjh1.kt) | [문제2 답안](Day24/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
