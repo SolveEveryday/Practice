@@ -9,7 +9,7 @@
 | 1   | [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) |
 | 2   | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day29/kjh1.kt) | [문제2 답안](Day29/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
