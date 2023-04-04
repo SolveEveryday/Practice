@@ -29,7 +29,7 @@
 | 1   | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) |
 | 2   | [n^2 배열 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/87390) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day30/kjh1.kt) | [문제2 답안](Day30/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
