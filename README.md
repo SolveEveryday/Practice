@@ -30,7 +30,7 @@
   <!-- 연속일수 -->
   <tr>
     <td align="center">
-      4일 연속🔥</br>
+      0일 연속🔥</br>
       최장 6일
     </td>
     <td align="center">
@@ -38,13 +38,13 @@
       최장 5일
     </td>
     <td align="center">
-      1일 연속🔥</br>
+      2일 연속🔥</br>
       최장 7일
     </td>
   </tr>
   <!-- 불참횟수 -->
   <tr>
-    <td align="center">불참 8회😢</td>
+    <td align="center">불참 9회😢</td>
     <td align="center">불참 12회😢</td>
     <td align="center">불참 2회😢</td>
   </tr>
