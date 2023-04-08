@@ -49,7 +49,7 @@
 | 1   | [순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412) |
 | 2   | [시소 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/152996) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day31/kjh1.kt) | [문제2 답안](Day31/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
