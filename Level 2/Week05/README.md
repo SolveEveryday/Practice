@@ -70,7 +70,7 @@
 | 1   | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |
 | 2   | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day32/kjh1.kt) | [문제2 답안](Day32/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **현수** | 문제1 답안 | 문제2 답안 |
