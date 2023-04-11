@@ -4,7 +4,7 @@ function solution(n) {
     fibonacci[i] = (fibonacci[i - 1] + fibonacci[i - 2]) % 1234567;
   }
 
-  return fibonacci[n] % 1234567;
+  return fibonacci[n];
 }
 
 console.log(solution(3));
