@@ -23,7 +23,6 @@ function solution(k, tangerine) {
       break;
     }
   }
-  console.log(result);
   return result.length;
 }
 
