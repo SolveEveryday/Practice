@@ -66,8 +66,8 @@
 
 | #   | 문제                 |
 | --- | -------------------- |
-| 1   | [디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085) |
-| 2   | [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476) |
+| 1   | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) |
+| 2   | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) |
 
 | **진홍** | 문제1 답안 | 문제2 답안 |
 | ------ | ---------- | ---------- |
