@@ -13,13 +13,6 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/HanHyunsoo">
-        <img src="https://avatars.githubusercontent.com/u/37373826?v=4" width="100px;" />
-        <br />
-        한현수
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/sukyeongh">
         <img src="https://avatars.githubusercontent.com/u/50071076?v=4" width="100px;" />
         <br />
@@ -34,19 +27,14 @@
       최장 6일
     </td>
     <td align="center">
-      0일 연속🔥</br>
-      최장 5일
-    </td>
-    <td align="center">
-      2일 연속🔥</br>
+      4일 연속🔥</br>
       최장 7일
     </td>
   </tr>
   <!-- 불참횟수 -->
   <tr>
-    <td align="center">불참 9회😢</td>
-    <td align="center">불참 12회😢</td>
-    <td align="center">불참 2회😢</td>
+    <td align="center">불참 13회😢</td>
+    <td align="center">불참 3회😢</td>
   </tr>
 </table>
 
