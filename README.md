@@ -27,13 +27,13 @@
       최장 6일
     </td>
     <td align="center">
-      4일 연속🔥</br>
+      5일 연속🔥</br>
       최장 7일
     </td>
   </tr>
   <!-- 불참횟수 -->
   <tr>
-    <td align="center">불참 13회😢</td>
+    <td align="center">불참 14회😢</td>
     <td align="center">불참 3회😢</td>
   </tr>
 </table>
