@@ -87,7 +87,7 @@
 | 1   | [과제 진행하기](https://school.programmers.co.kr/learn/courses/30/lessons/176962) |
 | 2   | [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) |
 
-| **진홍** | 문제1 답안 | 문제2 답안 |
+| **진홍** | [문제1 답안](Day40/kjh1.kt) | [문제2 답안](Day40/kjh2.kt) |
 | ------ | ---------- | ---------- |
 
 | **수경** | 문제1 답안 | 문제2 답안 |
